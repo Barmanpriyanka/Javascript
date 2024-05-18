@@ -1,0 +1,18 @@
+h1{
+    color:bisque;
+    background-color:paleturquoise ;
+}
+body{
+    background-color:blanchedalmond;
+}
+button{
+    color:black;
+    background-color:aliceblue;
+}
+div{
+    height:100px;
+    width:100px;
+    background-color:dodgerblue;
+    color:white;
+    border:1pxsolod black;
+}
