@@ -42,6 +42,11 @@ console.dir(div);
 let div1=document.querySelector("div").innerHTML;
 console.log(div1);
 
+let oldheading=document.querySelector("h4");
+console.dir(oldheading);
+//textContent-returns textual content even for hidden elements
+
+
 
 
 
