@@ -31,7 +31,7 @@ let ele=document.querySelector(".heading2");
 console.dir(ele);
 let el=document.querySelector(".heading1");
 console.dir(el);
-//tagName-retuen tag for the element node
+//tagName-returns tag for the element node
 let tagname=ele.tagName;
 console.dir(tagname);
 //text,comment,element
@@ -47,8 +47,15 @@ console.dir(oldheading);
 //textContent-returns textual content even for hidden elements
 
 
-
-
+//attributes
+let d=document.querySelector("div");
+console.log(d);
+let value=d.getAttribute("id");
+console.log(value);
+let para=document.querySelector("p");
+console.log(para);
+let value2=para.getAttribute("id");
+console.log(value2);
 
 
 
