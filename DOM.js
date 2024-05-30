@@ -19,7 +19,7 @@ console.log(heading2);
 let parahs=document.getElementsByTagName("p");
 console.dir(parahs);
 console.log(parahs);
-//querySelector   retuen first elements
+//querySelector   return first elements
 let elements=document.querySelector("p");
 console.dir(elements);
 //querySelectorAll  returns all elements
@@ -32,8 +32,8 @@ console.dir(ele);
 let el=document.querySelector(".heading1");
 console.dir(el);
 //tagName-returns tag for the element node
-let tagname=ele.tagName;
-console.dir(tagname);
+//let tagname=ele.tagName;
+//console.dir(tagname);
 //text,comment,element
 //innerText-returns the text content of the element and all its children.
 let div=document.querySelector("div").innerText;
@@ -48,6 +48,8 @@ console.dir(oldheading);
 
 
 //attributes
+//get attributes-getAttribute-getAttribute(attr) to get the attribute value
+//set attributes -setAttributes -setAttribute(attr,value)
 let d=document.querySelector("div");
 console.log(d);
 let value=d.getAttribute("id");
@@ -56,6 +58,12 @@ let para=document.querySelector("p");
 console.log(para);
 let value2=para.getAttribute("id");
 console.log(value2);
+//setAttributes
+let para2=document.querySelector("p");
+console.log(para2.setAttribute("class","paragraph"));
+let d2=document.querySelector("div");
+console.log(d2.setAttribute("id","newBox"));
 
+let div3=document.querySelector("div");
 
 
