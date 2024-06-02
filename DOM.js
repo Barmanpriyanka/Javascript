@@ -65,5 +65,20 @@ let d2=document.querySelector("div");
 console.log(d2.setAttribute("id","newBox"));
 
 let div3=document.querySelector("div");
+div3.style.backgroundColor="pink";
+div3.style.fontSize="26px";
+div3.innerText = "hello!";//change the text written in div 
 
+//insert elements or add element 
+//create 
+//add 
+let newBtn=document.createElement("button");
+newBtn=innerText="click me";
+console.log(newBtn);
+//node.append(el);adds at he end of the (inside)
+//Node.prepend(el)//adds at hte start of the node(inside)
+//node.before(el)//ads before the node(outside)
+//node.after(el)//adds after the node (outside)
+
+// delete.remove()//remove the  node
 
