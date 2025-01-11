@@ -9,9 +9,7 @@ function swap(a,b)
 {
     
     console.log("before swaping  value of a and b are: ",a,b);
-    a=a+b;
-    b=a-b;
-    a=a-b;
+    [a,b]=[b,a];
     console.log("after swaping value of a and b are :",a,b);
     
 
